@@ -16,6 +16,7 @@ from tensorflow.keras.optimizers import Adam, RMSprop, SGD
 import plotly.express as px
 import plotly.graph_objects as go
 import base64
+import time
 
 # GeoJSON data for Tasikmalaya
 geojson_data = {
@@ -476,6 +477,7 @@ def display_average_original_data(df):
 
 def get_coordinates(puskesmas_name):
     geolocator = Nominatim(user_agent="geospasial_stunting_app")
+    time.sleep(1)
     try:
         location = geolocator.geocode(f"{puskesmas_name}, Kota Tasikmalaya, Indonesia")
         return (location.latitude, location.longitude) if location else None
