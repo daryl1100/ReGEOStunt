@@ -187,7 +187,7 @@ geojson_data = {
     ]
 }
 
-API_URL = 'https://opendata.tasikmalayakota.go.id/api/bigdata/dinas_kesehatan/jmlh-blt-stntng-brdsrkn-psksms-d-kt-tskmly-2'
+API_URL = 'https://opendata.tasikmalayakota.go.id/api/bigdata/dinas_kesehatan/persentase_balita_stunting_berdasarkan_puskesmas_di_k'
 TASIKMALAYA_COORDINATES = (-7.3500, 108.2172)
 
 @st.cache_resource
@@ -1470,3 +1470,4 @@ st.markdown("""
     <p style="margin-top: 1rem; font-size: 0.9rem; color: #94a3b8;">Versi 1.0 | Terakhir diperbarui: Juni 2024</p>
 </div>
 """, unsafe_allow_html=True)
+
