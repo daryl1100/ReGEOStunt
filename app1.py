@@ -1104,47 +1104,6 @@ st.markdown("""
         background-color: #f8f9fa;
     }
 
-      .stSelectbox [class*="material-icons"] {
-        display: none !important;
-    }
-    
-    /* Ganti dengan ikon Unicode yang sederhana */
-    .stSelectbox div[data-baseweb="select"] > div:after {
-        content: "▼" !important;
-        color: #666 !important;
-        font-size: 12px !important;
-        position: absolute !important;
-        right: 12px !important;
-        top: 50% !important;
-        transform: translateY(-50%) !important;
-        pointer-events: none !important;
-        font-family: 'Roboto', sans-serif !important;
-    }
-    
-    /* Pastikan select box memiliki padding yang cukup */
-    .stSelectbox select {
-        padding-right: 30px !important;
-        appearance: none !important;
-        -webkit-appearance: none !important;
-        -moz-appearance: none !important;
-    }
-    
-    /* Perbaikan untuk expander */
-    .streamlit-expanderHeader::-webkit-details-marker {
-        display: none !important;
-    }
-    
-    .streamlit-expanderHeader:after {
-        content: "▼" !important;
-        color: #666 !important;
-        font-size: 12px !important;
-        margin-left: 8px !important;
-        font-family: 'Roboto', sans-serif !important;
-    }
-    
-    .streamlit-expanderHeader[aria-expanded="false"]:after {
-        content: "►" !important;
-    }
 </style>
 """, unsafe_allow_html=True)
 
@@ -1512,6 +1471,7 @@ st.markdown("""
     <p style="margin-top: 1rem; font-size: 0.9rem; color: #94a3b8;">Versi 1.0 | Terakhir diperbarui: Juni 2024</p>
 </div>
 """, unsafe_allow_html=True)
+
 
 
 
