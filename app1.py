@@ -1103,13 +1103,6 @@ st.markdown("""
     .menu a:hover {
         background-color: #f8f9fa;
     }
-    .streamlit-expanderHeader [class*="KeyboardArrow"] {
-        display: none !important;
-        visibility: hidden !important;
-        opacity: 0 !important;
-        width: 0 !important;
-        height: 0 !important;
-    }
     
 </style>
 """, unsafe_allow_html=True)
@@ -1478,6 +1471,7 @@ st.markdown("""
     <p style="margin-top: 1rem; font-size: 0.9rem; color: #94a3b8;">Versi 1.0 | Terakhir diperbarui: Juni 2024</p>
 </div>
 """, unsafe_allow_html=True)
+
 
 
 
