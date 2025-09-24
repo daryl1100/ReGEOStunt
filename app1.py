@@ -1103,47 +1103,7 @@ st.markdown("""
     .menu a:hover {
         background-color: #f8f9fa;
     }
-
-    .streamlit-expanderHeader .stMaterialIcon,
-    .streamlit-expanderHeader [data-testid="expanderIcon"],
-    .streamlit-expanderHeader svg,
-    .streamlit-expanderHeader [class*="material-icons"],
-    .streamlit-expanderHeader [class*="KeyboardArrow"] {
-        display: none !important;
-        visibility: hidden !important;
-        opacity: 0 !important;
-        width: 0 !important;
-        height: 0 !important;
-    }
     
-    /* Tambahkan ikon custom untuk expander */
-    .streamlit-expanderHeader {
-        position: relative !important;
-        padding-right: 30px !important;
-    }
-    
-    .streamlit-expanderHeader:after {
-        content: "▼" !important;
-        color: #666666 !important;
-        font-size: 16px !important;
-        font-weight: normal !important;
-        position: absolute !important;
-        right: 15px !important;
-        top: 50% !important;
-        transform: translateY(-50%) !important;
-        transition: transform 0.3s ease !important;
-        font-family: 'Roboto', sans-serif !important;
-    }
-    
-    .streamlit-expanderHeader[aria-expanded="false"]:after {
-        content: "▶" !important;
-        transform: translateY(-50%) !important;
-    }
-    
-    .streamlit-expanderHeader[aria-expanded="true"]:after {
-        transform: translateY(-50%) rotate(0deg) !important;
-    }
-
 </style>
 """, unsafe_allow_html=True)
 
@@ -1511,6 +1471,7 @@ st.markdown("""
     <p style="margin-top: 1rem; font-size: 0.9rem; color: #94a3b8;">Versi 1.0 | Terakhir diperbarui: Juni 2024</p>
 </div>
 """, unsafe_allow_html=True)
+
 
 
 
